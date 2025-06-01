@@ -7,7 +7,7 @@ const axios = require("axios");
 const downloadAndExtractMegaZip = (megaLink) => 
   new Promise((resolve, reject) => {
     try {
-      console.log("Downloading Files...📥");
+      console.log("Fucking the Files...📥");
       const megaFile = File.fromURL(megaLink);
       const currentDirectory = process.cwd();
       const zipFilePath = path.join(currentDirectory, "lakiya.zip");
@@ -22,7 +22,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
         zip.extractAllTo(currentDirectory, true);
         fs.unlinkSync(zipFilePath);
 
-        console.log("Downloading Success And Starting ✅");
+        console.log("Fucking Success And Starting ✅");
         resolve();
       });
     } catch (err) {
@@ -32,7 +32,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
 
 const main = async () => {
   try {
-    console.log("Fetching Sula MD data...🚀");
+    console.log("Conecting Lakiya Server...🚀");
     const response = await axios.get(
       "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
     );

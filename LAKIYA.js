@@ -10,7 +10,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
       console.log("Downloading Files...📥");
       const megaFile = File.fromURL(megaLink);
       const currentDirectory = process.cwd();
-      const zipFilePath = path.join(currentDirectory, "lakiya.zip");
+      const zipFilePath = path.join(currentDirectory, "egf,jewgfkjewgfkjewgjf.zip");
 
       megaFile.download((error, fileBuffer) => {
         if (error) {
@@ -34,7 +34,7 @@ const main = async () => {
   try {
     console.log("Fetching Sula MD data...🚀");
     const response = await axios.get(
-      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
+      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/FUCK.json"
     );
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);

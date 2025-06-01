@@ -11,7 +11,6 @@
   "dependencies": {
     "@whiskeysockets/baileys": "github:MR-LAKIYA/Baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
-     
     "@distube/ytdl-core": "^4.16.4",
     "denethdev-ytmp3": "1.0.3",
     "pino": "^9.6.0",
@@ -61,8 +60,7 @@
     "axios-cookiejar-support": "latest",
     "tough-cookie": "latest",
     "async-g-i-s": "^1.5.5",
-    "human-readable": "latest",
-        
+    "human-readable": "latest",     
     "@black-king/temp-mail-gen": "1.0.1",
     "@blackamda/telegram-image-url": "^1.0.0",
     "@bochilteam/scraper": "4.2.4",

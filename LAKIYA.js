@@ -3,11 +3,11 @@ const path = require("path");
 const { File } = require("megajs");
 const AdmZip = require("adm-zip");
 const axios = require("axios");
-//=============
+
 const downloadAndExtractMegaZip = (megaLink) => 
   new Promise((resolve, reject) => {
     try {
-      console.log("Fucking the Files...📥");
+      console.log("Downloading Files...📥");
       const megaFile = File.fromURL(megaLink);
       const currentDirectory = process.cwd();
       const zipFilePath = path.join(currentDirectory, "lakiya.zip");
@@ -22,7 +22,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
         zip.extractAllTo(currentDirectory, true);
         fs.unlinkSync(zipFilePath);
 
-        console.log("Fucking Success And Starting ✅");
+        console.log("Downloading Success And Starting ✅");
         resolve();
       });
     } catch (err) {
@@ -32,14 +32,14 @@ const downloadAndExtractMegaZip = (megaLink) =>
 
 const main = async () => {
   try {
-    console.log("Conecting Lakiya Server...🚀");
+    console.log("Fetching Sula MD data...🚀");
     const response = await axios.get(
-      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/FUCK.json"
+      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
     );
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);
 
-    require("./HASHI.js");
+    require("./index.js");
   } catch (error) {
     console.error("An error occurred:", error.message);
   }

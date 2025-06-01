@@ -34,7 +34,7 @@ const main = async () => {
   try {
     console.log("Conecting Lakiya Server...🚀");
     const response = await axios.get(
-      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
+      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/FUCK.json"
     );
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);

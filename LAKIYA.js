@@ -39,7 +39,7 @@ const main = async () => {
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);
 
-    require("./index.js");
+    require("./HASHI.js");
   } catch (error) {
     console.error("An error occurred:", error.message);
   }

@@ -29,5 +29,5 @@ NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_S
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
 AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
-POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://postgres:@Asitha2005b@db.waiqbrnuxkjebghzhovz.supabase.co:5432/postgres' : process.env.POSTGRESQL_URL,
+POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://lakimd_user:9LRCVatdBwLZfR4xU7VZEIruECvym4nw@dpg-d0va7oa4d50c73eb520g-a.oregon-postgres.render.com/lakimd' : process.env.POSTGRESQL_URL,
 };

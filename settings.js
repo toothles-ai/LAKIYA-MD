@@ -11,7 +11,7 @@ AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.e
 MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
-AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,//AI_REPLAY KARANA KOTASA ADD KARA
+AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK,
@@ -29,5 +29,4 @@ NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_S
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
 AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
-POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://lakimd_user:9LRCVatdBwLZfR4xU7VZEIruECvym4nw@dpg-d0va7oa4d50c73eb520g-a.oregon-postgres.render.com/lakimd' : process.env.POSTGRESQL_URL,
 };

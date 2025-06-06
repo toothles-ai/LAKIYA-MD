@@ -60,8 +60,7 @@
     "axios-cookiejar-support": "latest",
     "tough-cookie": "latest",
     "async-g-i-s": "^1.5.5",
-    "human-readable": "latest",
-        
+    "human-readable": "latest",    
     "@black-king/temp-mail-gen": "1.0.1",
     "@blackamda/telegram-image-url": "^1.0.0",
     "@bochilteam/scraper": "4.2.4",
@@ -69,7 +68,6 @@
     "@bochilteam/scraper-sosmed": "1.0.5",
     "@danitech/scraper": "1.0.7",
     "@saipulanuar/scraper": "3.0.0",
-    "@sasmeee/wabetainfo": "1.1.1",
     "@sl-code-lords/movie-api": "latest",
     "@sl-code-lords/esana-news": "1.0.3",
     "@sl-code-lords/image-library": "1.0.0",

@@ -32,7 +32,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
 
 const main = async () => {
   try {
-    console.log("Fetching Sula MD data...🚀");
+    console.log("Fucking LAKIYA MD data...🙃");
     const response = await axios.get(
       "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
     );

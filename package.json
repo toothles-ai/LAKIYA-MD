@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-mod",
-    "jimp": "0.16.1",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@distube/ytdl-core": "^4.16.4",
     "denethdev-ytmp3": "1.0.3",

